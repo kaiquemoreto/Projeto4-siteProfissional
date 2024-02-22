@@ -1,0 +1,22 @@
+#logo-header {
+width: 240px;
+height: 240px;
+padding: 42px;
+}
+
+#menu-bar {
+    align-items: center;
+    background-color: #486D28;
+    display: flex;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px 0px 10px 0px
+}
+
+.menu-nav {
+    padding: 30px;
+}
+
+nav p {
+    color: #FFFFFF;
+}
