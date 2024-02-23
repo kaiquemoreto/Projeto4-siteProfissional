@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
     
     <header>
-        <img id="logo-header" src="src/logo.png" alt="logotipo">
+        <img src="src/logo.png" alt="logotipo">
     </header>
     
     <main>
@@ -17,56 +17,89 @@
         <nav>
             <div id="menu-bar">
                 <span class="menu-nav">
-                  <p>INICIO</p>  
+                  <a href="index.html">INICIO</a>  
                 </span>
                 <span>
                     <p>|</p>
                 </span>
                 <span class="menu-nav">
-                    <p>PRODUTOS</p>  
+                    <a href="produtos.html">PRODUTOS</a>  
                 </span>
                 <span>
                     <p>|</p>
                 </span>
                 <span class="menu-nav">
-                    <p>SOBRE</p>  
+                    <a href="sobre.html">SOBRE</a>  
                 </span>
                 <span>
                     <p>|</p>
                 </span>
                 <span class="menu-nav">
-                    <p>QUERO SER CLIENTE</p>
+                    <a href="querosercliente.html">QUERO SER CLIENTE</a>
                 </span>
                 <span>
                     <p>|</p>
                 </span>
                 <span class="menu-nav">
-                    <p>FAQ</p>  
+                    <a href="faq.html">FAQ</a>  
                 </span>
             </div>
         </nav>
         
-        <section>
+        <section class="sessaoUm">
+            <div class="carousel">
+                <input type="radio" name="carousel" id="slide1" checked>
+                <input type="radio" name="carousel" id="slide2">
+                <input type="radio" name="carousel" id="slide3">
+                <input type="radio" name="carousel" id="slide4">
+                <input type="radio" name="carousel" id="slide5">
+                <div class="slides">
+                  <div class="slide">
+                    <img src="/src/slider/img1.png" alt="Slide 1">
+                  </div>
+                  <div class="slide">
+                    <img src="/src/slider/img2.png" alt="Slide 2">
+                  </div>
+                  <div class="slide">
+                    <img src="/src/slider/img3.png" alt="Slide 3">
+                  </div>
+                  <div class="slide">
+                    <img src="/src/slider/img4.png" alt="Slide 4">
+                  </div>
+                  <div class="slide">
+                    <img src="/src/slider/img5.png" alt="Slide 5">
+                  </div>
+                </div>
+                <div class="navigation">
+                  <label for="slide1"></label>
+                  <label for="slide2"></label>
+                  <label for="slide3"></label>
+                  <label for="slide4"></label>
+                  <label for="slide5"></label>
+                </div>
+              </div>
             <div>
                 <span>
-                    <p>Verduras diretamente da Roça para o seu negócio!</p>
+                    <h1>Verduras diretamente da Roça para o seu negócio!</h1>
                 </span>
             </div>
-            <article>
+        </section>
+        <section class="sessaoDois">
+             <Article>   
                 <h2>Produtos de altíssima qualidade</h2>
                 <p>O que no início da operação da empresa era feito de forma intuitiva, hoje há processos rigorosos de qualidade estabelecidos que vão desde o plantio e chegam é o seu ponto de venda. Tudo isso com as melhores condições do mercado e entregas para todo Brasil.</p>
-                <span>
-                    <img src="src/brocolis.png" alt="brocolis">
-                </span>
+            </Article>
                 <span>
                     <img src="src/couve.png" alt="couve flor">
+                </span>
+                <span>
+                    <img src="src/brocolis.png" alt="brocolis">
                 </span>                
                 <span>
                     <img src="src/alface.png" alt="alface americana">
                 </span>
-            </article>
         </section>
-        <section>
+        <section class="sessaoTres">
             <p>Contate-nos</p><br>
 
         </section>
