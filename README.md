@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto Site Profissional" src=".github/Preview.JPG" width="100%">
+  <img alt="Projeto Site Profissional" src="/src/Preview.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
