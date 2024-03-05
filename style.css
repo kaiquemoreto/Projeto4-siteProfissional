@@ -9,6 +9,10 @@
     -webkit-text-size-adjust: 100%;
 }
 
+body {
+    background-color: rgb(243, 243, 243);
+}
+
 header {
     padding: 30px 0 0 30px;
     margin: 20px auto 20px;
