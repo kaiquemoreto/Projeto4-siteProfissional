@@ -102,7 +102,22 @@ main {
 
 #apresentacao p {
     font-size: 18px;
-    margin: auto;
+}
+
+.foto {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.experiencia {
+    padding-left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.titleform {
+    border-top: 1px solid #333;
 }
 
 footer {
